@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+#dischi-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.disco {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.disco img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.disco h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.disco p {
+    margin: 5px 0;
+    color: #555;
+}
