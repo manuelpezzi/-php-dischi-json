@@ -19,7 +19,7 @@ return $dischi;
 
 //funzione per aggiungere un nuovo disco
 
-function aggiungiDisco($nuovo_disco) ={
+function aggiungiDisco($nuovo_disco) {
 
 //leggi i idischi esistenti
 $dischi = leggiDischi();
